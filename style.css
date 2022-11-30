@@ -1,0 +1,422 @@
+:root{
+--Red:hsl(0, 100%, 74%) ;
+--Green: hsl(154, 59%, 51%);
+--Blue: hsl(248, 32%, 49%);
+--DarkBlue: hsl(249, 10%, 26%) ;
+--GrayishBlue: hsl(246, 25%, 77%);
+}
+body{
+    Font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bg-intro-desktop.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-color: var(--Red);
+}
+
+#form{
+ 
+  width: 100%;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.error{
+  margin-top: 1.2rem;
+  color:var(--Red);
+  font-size: 12px;
+  font-weight: 400;
+  text-align: end;
+  width: 80%;
+}
+.box-container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.firside{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.firside h1{
+    color:white;
+    font-size: 2.7rem;
+    padding: 0rem 10rem 0rem 10rem;
+    text-align: start;
+}
+.firside p{
+    color:white;
+    font-size: 16px;
+    padding: 0rem 10rem 0rem 10rem;
+}
+.secondside{
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 10rem 0rem 10rem;
+}
+.secondside p{
+  text-align: center;
+  font-size: 11px;
+  color:var(--GrayishBlue);
+  margin-bottom: 2rem;
+}
+.secondside p span{
+  color: var(--Red);
+}
+
+.secondside .uppertrial{
+width: 85%;
+height: 3.5rem;
+padding: .1rem;
+border-radius: 10px;
+color: white;
+text-align: center;
+background-color: var(--Blue);
+margin-bottom: 1rem;
+}
+
+.secondside .uppertrial p{
+ font-size: 15px;
+ color: white;
+    }
+    .secondside .uppertrial p span{
+        font-size: 15px;
+        font-weight: 400;
+        color:var(--GrayishBlue)
+           }
+.secondside .main-form{
+   
+background-color: white;
+width: 85%;
+height: fit-content;
+    display: flex;
+    flex-direction: column;
+padding: 0rem;
+border-radius: 10px;
+align-items: center;
+}
+
+.secondside .main-form input{
+  margin-top: 1rem;
+    width: 79%;
+  height: 1.5rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+    border: solid 1px var(--GrayishBlue);
+    
+    
+    }
+
+  
+.firstimage{
+  visibility:hidden;
+  margin-left: 75%;
+  margin-top: -35px;
+text-align: end ;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#firstimage{
+  visibility:hidden;
+}
+#secondimage{
+  visibility:hidden;
+}
+#thirdimage{
+  visibility:hidden;
+}
+#lastimage{
+  visibility:hidden;
+}
+  
+    .secondside .main-form input:nth-child(1){
+        margin-top: 2rem;
+       
+          
+          }
+    .secondside .main-form input::placeholder{
+        font-weight: 500;
+        color: var(--GrayishBlue);
+padding-left: .8rem;
+
+          
+          }
+          
+          .secondside .main-form input:focus{
+            border: none;
+            border: 1px solid var(--Blue);
+          }
+          .secondside .main-form button{
+  margin-top: 1rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+background-color:var(--Green);
+            width: 85%;
+            color: white;
+            letter-spacing: 2px;
+            font-size: 13px;
+            text-transform: uppercase;
+            margin-bottom: .4rem;
+              }
+              @media only screen and (max-width:1440px){
+                .box-container{
+                  width: 100%;
+                  height:100vh;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  
+              }
+              .firside{
+                  width: 50%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column;
+                  justify-content: center;
+              
+              }
+              .firside h1{
+                  color:white;
+                  font-size: 2.7rem;
+                  padding: 0rem 10rem 0rem 10rem;
+                  text-align: start;
+              }
+              .firside p{
+                  color:white;
+                  font-size: 16px;
+                  padding: 0rem 10rem 0rem 10rem;
+              }
+              .secondside{
+                  
+                  width: 50%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 0rem 0rem 0rem 0rem;
+              }
+              .secondside p{
+                text-align: center;
+                font-size: 11px;
+                color:var(--GrayishBlue);
+                margin-bottom: 2rem;
+              }
+              .secondside p span{
+                color: var(--Red);
+              }
+              
+              .secondside .uppertrial{
+              width: 85%;
+              height: fit-content;
+              padding: .1rem;
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+              background-color: var(--Blue);
+              margin-bottom: 1rem;
+              }
+              .secondside .uppertrial p{
+               font-size: 15px;
+               color: white;
+                  }
+                  .secondside .uppertrial p span{
+                      font-size: 15px;
+                      font-weight: 400;
+                      color:var(--GrayishBlue)
+                         }
+              .secondside .main-form{
+                 
+              background-color: white;
+              width: 85%;
+              height: fit-content;
+                  display: flex;
+                  flex-direction: column;
+              padding: 0rem;
+              border-radius: 10px;
+              align-items: center;
+              }
+              .secondside .main-form input{
+                margin-top: 1rem;
+                  width: 79%;
+                height: 1.5rem;
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                  border: solid 1px var(--GrayishBlue);
+                  
+                  }
+                  .secondside .main-form input:nth-child(1){
+                      margin-top: 2rem;
+                     
+                        
+                        }
+                  .secondside .main-form input::placeholder{
+                      font-weight: 500;
+                      color: var(--GrayishBlue);
+              padding-left: .8rem;
+              
+                        
+                        }
+                        
+                        .secondside .main-form input:focus{
+                          border: none;
+                          border: 1px solid var(--Blue);
+                        }
+                        .secondside .main-form button{
+                margin-top: 1rem;
+                height: 3rem;
+                border-radius: 5px;
+                border: none;
+              background-color:var(--Green);
+                          width: 85%;
+                          color: white;
+                          letter-spacing: 2px;
+                          font-size: 13px;
+                          text-transform: uppercase;
+                          margin-bottom: .4rem;
+                            }
+              }
+              @media only screen and (max-width:375px){
+                .box-container{
+                  width: 100%;
+                  height:100%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  
+              }
+              .firside{
+                  width: 100%;
+                  height: fit-content;
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column;
+                  justify-content: center;
+              
+              }
+              .firside h1{
+
+                  color:white;
+                  font-size: 1.3rem;
+                  padding: 2.5rem 2.5rem 0rem 2.5rem ;
+                  text-align: center;
+              }
+              .firside p{
+                text-align: center;
+                  color:white;
+                  font-size: 13px;
+                  padding: 0rem 2rem 0rem 2rem
+              }
+              .secondside{
+                  
+                  width: 100%;
+                  height: fit-content;
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 2.4rem 0rem 0rem 0rem;
+              }
+              .secondside p{
+                text-align: center;
+                font-size: 11px;
+                color:var(--GrayishBlue);
+                margin-bottom: 2rem;
+              }
+              .secondside p span{
+                color: var(--Red);
+              }
+              
+              .secondside .uppertrial{
+              width: 80%;
+              height: fit-content;
+              
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+              background-color: var(--Blue);
+              margin-bottom: 1rem;
+              }
+              .secondside .uppertrial p{
+               font-size: 14px;
+               color: white;
+               padding: .4rem 1rem 0rem 1rem;
+                  }
+                  .secondside .uppertrial p span{
+                      font-size: 14px;
+                      font-weight: 400;
+                      color:var(--GrayishBlue)
+                         }
+              .secondside .main-form{
+                 
+              background-color: white;
+              width: 80%;
+              height: fit-content;
+                  display: flex;
+                  flex-direction: column;
+              padding: 0rem;
+              border-radius: 10px;
+              align-items: center;
+              }
+              .secondside .main-form input{
+                margin-top: 1rem;
+                  width: 79%;
+                height: 1.5rem;
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                  border: solid 1px var(--GrayishBlue);
+                  
+                  }
+                  .secondside .main-form input:nth-child(1){
+                      margin-top: 2rem;
+                     
+                        
+                        }
+                  .secondside .main-form input::placeholder{
+                      font-weight: 500;
+                      color: var(--GrayishBlue);
+              padding-left: .8rem;
+              
+                        
+                        }
+                        
+                        .secondside .main-form input:focus{
+                          border: none;
+                          border: 1px solid var(--Blue);
+                        }
+                        .secondside .main-form button{
+                margin-top: 1rem;
+                height: 3rem;
+                border-radius: 5px;
+                border: none;
+              background-color:var(--Green);
+                          width: 85%;
+                          color: white;
+                          letter-spacing: 1px;
+                          font-size: 12px;
+                          text-transform: uppercase;
+                          margin-bottom: .4rem;
+                            }
+              }
